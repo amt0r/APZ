@@ -1,4 +1,4 @@
-#Task 18
+#Task 18#
 Напишіть функцію, яка друкує 8-бітне (беззнакове) число у двійковому форматі.
 Реалізуйте дві версії:
 З використанням бітових операцій (&, |, <<, >>).
@@ -8,8 +8,8 @@
 Додайте функцію конвертації тексту у двійковий код ASCII
 ---
 
-#About program
-##This program has the following functions:
+#About program#
+##This program has the following functions:##
 Function for conveting num to binary num and print it.
 print_binary(uint64_t num, int bits)
 
@@ -19,12 +19,13 @@ text_to_binary(const char *text)
 Function for conveting num to binary num and print it, but using table(needed initilize init_binary_table()).
 print_binary_table(uint8_t num)
 
-#How to use
+#How to use#
 Compile and run
 ```c
 cd "direcrtion_to_file" && clang to_binary.c -o to_binary && "destionation_direction"to_binary
+```
 
-#Some facts
+#Some facts#
 Byte = 8 bits
 Order of bits in the byte: 7 6 5 4 3 2 1 0 (Most Significant Bit → Least Significant Bit)
 Prefix: "0x" mean hex number
