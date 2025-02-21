@@ -11,17 +11,17 @@ Task 18
 
 About program
 ---
-This program has the following functions:
+### This program has the following functions:
 
-Function for conveting num to binary num and print it.
+#### Function for conveting num to binary num and print it.
 
 print_binary(uint64_t num, int bits)
 
-Function for conveting ASCII letters to binary num and print it.
+#### Function for conveting ASCII letters to binary num and print it.
 
 text_to_binary(const char *text)
 
-Function for conveting num to binary num and print it, but using table(needed initilize init_binary_table()).
+#### Function for conveting num to binary num and print it, but using table(needed initilize init_binary_table()).
 
 print_binary_table(uint8_t num)
 
