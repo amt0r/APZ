@@ -1,0 +1,2 @@
+Main numbers (7 of 49): 7 10 25 34 40 45 49 
+Bonus numbers (6 of 36): 9 21 25 26 27 32 

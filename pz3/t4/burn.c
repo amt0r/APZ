@@ -29,6 +29,13 @@ int compare(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
 }
 
+void burn_cpu_time() {
+    volatile double x = 0;
+    for (long long i = 0; i < 1e9; i++) {
+        x += i * 0.0000001;
+    }
+}
+
 int main() {
     struct rlimit rl;
     rl.rlim_cur = 1;
@@ -61,5 +68,9 @@ int main() {
 
     fclose(f);
     printf("Results saved to %s\n", OUT_FILE);
+
+    printf("Now burning CPU time...\n");
+    burn_cpu_time();
+
     return 0;
 }
